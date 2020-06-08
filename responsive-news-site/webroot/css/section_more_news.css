@@ -25,3 +25,22 @@
 #section_more_news .category a {
   color: #FA6980;
 }
+
+ @media (min-width: 768px) {
+
+  #section_more_news {
+    display: grid;
+    grid-template-areas: "header header"
+                         ".article_longform::first-child .article_longform::last-child";
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  #section_trending {
+    display: grid;
+    grid-template-areas: "header header"
+                         ".article_swatch::first-child .article_swatch::last-child";
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+  #happening_now
+}
