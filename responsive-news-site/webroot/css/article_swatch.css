@@ -17,6 +17,12 @@
   position: relative;
 }
 
+@media (min-width:768px) {
+  .article_swatch .article_image {
+    height: calc(50vw - 10rem);
+  }
+}
+
 .article_swatch .article_image img {
   position: absolute;
   top: 50%;
