@@ -32,3 +32,15 @@
   }
 
 }
+
+@media (min-width: 1044px) {
+  #section_featured {
+    display: flex;
+
+  }
+  #section_featured article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -75,6 +75,9 @@ body > footer a {
    padding-top: 0;
    margin-bottom: 1rem  ;
   }
+  .links_site li {
+    margin: 0;
+  }
   .links_social {
     align-self: end;
     margin-inline-start: 16rem;

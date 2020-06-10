@@ -52,5 +52,12 @@
     grid-area: article_longform-2;
   }
 
+}
+
+@media(min-width: 1044px) {
+  #section_more_news {
+    display: flex;
+    flex-direction: column
+  }
 
 }
