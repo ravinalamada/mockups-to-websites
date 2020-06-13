@@ -52,6 +52,6 @@
     margin-inline-end: 20px;
   }
   #section_happening_now article:nth-of-type(5) {
-    display: inline-flex;
+    display: flex;
 }
 }

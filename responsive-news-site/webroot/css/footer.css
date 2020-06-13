@@ -74,6 +74,7 @@ body > footer a {
    margin-top: 0;
    padding-top: 0;
    margin-bottom: 1rem  ;
+   column-gap: 3rem;
   }
   .links_site li {
     margin: 0;
@@ -85,6 +86,7 @@ body > footer a {
   .form_subscribe {
     grid-row: 2;
     grid-column: 1;
+    margin-inline-start: 4rem;
   }
 
   .link_primary {
@@ -94,9 +96,20 @@ body > footer a {
   footer > :first-child {
     padding-inline-start: 4rem;
   }
-  form {
-    margin-inline-start: 4rem;
-  }
 }
 
-
+@media (min-width: 1044px) {
+  body > footer:last-child  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .links_social {
+    order: 2;
+    margin-inline-start: 0;
+    margin-inline-end: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+  }
+}
