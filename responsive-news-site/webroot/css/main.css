@@ -22,21 +22,14 @@ main {
 
   #section_trending {
     grid-area: trending;
-  };
+  }
 
   #section_happening_now {
     grid-area: hapening-now;
-  };
+  }
 }
 
-@media(min-width: 1044px) {
-  #section_trending {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-  };
 
-}
 
 
 

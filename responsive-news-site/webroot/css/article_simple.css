@@ -37,3 +37,10 @@
   order: 3;
   color: #A6ADB4;
 }
+@media (min-width: 1044px) {
+  #section_happening_now .article_simple > .article_image {
+    max-width: 360px;
+    height: 210px;
+  }
+
+}

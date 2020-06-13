@@ -44,3 +44,14 @@
 .article_card .publication_details time {
   background-image: url(../images/icons/icon_clock_white.svg);
 }
+
+@media (min-width: 1044px) {
+  #section_happening_now .article_card {
+    max-width: 760px;
+    float: left;
+    margin-inline-end: 20px;
+  }
+  #section_happening_now article:nth-of-type(5) {
+    display: inline-flex;
+}
+}
