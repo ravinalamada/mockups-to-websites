@@ -28,19 +28,23 @@
 @media (min-width:768px) {
   #section_featured article{
     padding-inline-start: 3.5rem;
+
     padding-inline-end: 3.5rem;
-  }
+  };
 
 }
 
 @media (min-width: 1044px) {
   #section_featured {
     display: flex;
-
   }
   #section_featured article {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-inline-start: 4rem;
+    padding-inline-end: 4rem;
+
+
   }
 }

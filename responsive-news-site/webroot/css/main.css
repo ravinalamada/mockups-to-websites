@@ -7,10 +7,10 @@ main {
 @media (min-width: 1044px) {
   main {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "featured more-new"
-                         "trending trending"
-                         "hapening-now hapening-now";
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "featured featured more-new"
+                         "trending trending trending"
+                         "hapening-now hapening-now hapening-now";
   }
   #section_featured {
     grid-area: featured;
@@ -19,11 +19,40 @@ main {
   #section_more_news {
     grid-area: more-new;
   }
+
   #section_trending {
     grid-area: trending;
-  }
+  };
 
   #section_happening_now {
     grid-area: hapening-now;
-  }
-}
+  };
+
+  #section_trending {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+    grid-template-areas: "header header header"
+                         "first-article second-article third-article"
+                         "first-article second-article third-article";
+  };
+
+  #section_trending header {
+    grid-area: header;
+  };
+  #section_trending article:nth-of-type(1) {
+    grid-area: first-article;
+  };
+
+  #section_trending article:nth-of-type(2) {
+    grid-area: second-article;
+  };
+
+  #section_trending article:nth-of-type(3) {
+    display: flex;
+    grid-area: third-article;
+  };
+};
+
+
+
