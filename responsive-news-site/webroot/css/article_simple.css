@@ -43,4 +43,15 @@
     height: 210px;
   }
 
+  #section_happening_now article:nth-of-type(3) {
+    margin-block-start: 0.5rem;
+  }
+  #section_happening_now article:nth-of-type(4) {
+    margin-block-start: 5rem;
+  }
+  #section_happening_now article:nth-of-type(5) {
+    display: flex;
+    margin-block-start: 4.5rem;
+}
+
 }

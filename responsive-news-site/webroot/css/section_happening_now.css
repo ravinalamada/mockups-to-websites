@@ -30,10 +30,6 @@
   #section_happening_now .article_card {
     grid-column-start: span 2;
   }
-
-  #section_happening_now article:nth-of-type(5) {
-    display: none;
-  }
  }
 
  @media (min-width: 1044px) {

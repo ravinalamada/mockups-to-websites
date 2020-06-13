@@ -45,13 +45,17 @@
   background-image: url(../images/icons/icon_clock_white.svg);
 }
 
+@media (min-width: 768px) {
+  #section_happening_now article:nth-of-type(5) {
+    display: none;
+  }
+}
+
 @media (min-width: 1044px) {
   #section_happening_now .article_card {
     max-width: 760px;
+    height: 430px;
     float: left;
-    margin-inline-end: 20px;
+    margin-inline-end: 40px;
   }
-  #section_happening_now article:nth-of-type(5) {
-    display: flex;
-}
 }
