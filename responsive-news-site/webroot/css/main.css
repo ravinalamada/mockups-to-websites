@@ -27,32 +27,18 @@ main {
   #section_happening_now {
     grid-area: hapening-now;
   };
+}
 
+@media(min-width: 1044px) {
   #section_trending {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
-    grid-template-areas: "header header header"
-                         "first-article second-article third-article"
-                         "first-article second-article third-article";
   };
 
-  #section_trending header {
-    grid-area: header;
-  };
-  #section_trending article:nth-of-type(1) {
-    grid-area: first-article;
-  };
+}
 
-  #section_trending article:nth-of-type(2) {
-    grid-area: second-article;
-  };
 
-  #section_trending article:nth-of-type(3) {
-    display: flex;
-    grid-area: third-article;
-  };
-};
 
 
 
