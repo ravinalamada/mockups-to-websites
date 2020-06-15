@@ -37,13 +37,11 @@
 @media (min-width: 1044px) {
   #section_featured {
      display: flex;
-     max-width: 60%;
-     float: left;
    }
   #section_featured article {
-    padding-block-start: 12rem;
-    padding-block-end: 12rem;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
   }
 }

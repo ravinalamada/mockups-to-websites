@@ -56,7 +56,6 @@
 
 @media(min-width: 1044px) {
   #section_more_news {
-    max-width: 40%;
     display: flex;
     flex-direction: column;
   }
