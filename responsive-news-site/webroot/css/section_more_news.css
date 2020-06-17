@@ -58,6 +58,8 @@
   #section_more_news {
     display: flex;
     flex-direction: column;
+    margin-inline-start: -4.3rem;
+    padding-inline-start: 8rem;
   }
   #section_more_news .article_longform {
     margin-block-end: 0;
